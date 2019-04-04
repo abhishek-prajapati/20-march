@@ -1,0 +1,3 @@
+If you have added changes in a particular file didn't commit the changes and pulled the remote changes then you will get warning for committing changes or stash them. In this situation you have to commit the changes or stash them, once you stash the changes then your changes will be saved in temporary buffer and remote changes will be integrated on your working directory.
+
+Now you have merge your changes which were stashed by using command git stash pop, remember there is no point in storing stashed changes always on your system, you must have to remove those instead of using command git stash merge.
